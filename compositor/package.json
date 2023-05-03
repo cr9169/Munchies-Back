@@ -1,0 +1,24 @@
+{
+  "name": "munchies-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/src/index.js",
+    "test": "tsc && jest ./dist/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr9169/Munchies-Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cr9169/Munchies-Back/issues"
+  },
+  "homepage": "https://github.com/cr9169/Munchies-Back#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
